@@ -1,7 +1,8 @@
-import Counter from './counter/counter.jsx'
+import Todo from './todo/todo.js'
+import './index.css'
 function App(){
   return(
-    <Counter />
-    )
+    <Todo />
+  )
 }
 export default App;

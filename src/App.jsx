@@ -1,8 +1,8 @@
-import Todo from './todo/todo.js'
-import './index.css'
+import WeatherApp from './weatherApp/weatherApp.js'
+
 function App(){
   return(
-    <Todo />
+    <WeatherApp />
   )
 }
 export default App;

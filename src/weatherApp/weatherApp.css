@@ -1,7 +1,5 @@
-
-
 div{
-  text-align: center;
+  text-align:center;
 }
 button{
   background-color: hsl(116.6,95%,49.1%);
@@ -21,9 +19,4 @@ li{
   margin-left:8%;
   margin-bottom: 4%;
   box-shadow: 6px 6px 10px black;
-}
-.checkBtn{
-  position:relative;
-  margin-left:5%;
-  top:1px;
 }

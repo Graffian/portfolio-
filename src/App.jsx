@@ -1,8 +1,8 @@
-import WeatherApp from './weatherApp/weatherApp.js'
-
+import Login from './login/login.js'
 function App(){
+  
   return(
-    <WeatherApp />
+    <Login/>
   )
 }
 export default App;

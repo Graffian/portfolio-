@@ -1,8 +1,8 @@
-import Login from './login/login.js'
+import Database from './database/db.js'
 function App(){
   
   return(
-    <Login/>
+    <Database/>
   )
 }
 export default App;

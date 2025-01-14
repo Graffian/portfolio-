@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-body{
+/*body{
   background-color:#2d2d2d;
 }
 .navigation{
@@ -315,3 +315,642 @@ a{
 .node{
   color:green;
 }
+
+*/
+/* Reset CSS */
+
+/*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #2d2d2d;
+  color: white;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Flexbox Grid Container */
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Navigation */
+/* .navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  width: 100%;
+  padding: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navElement {
+  color: white;
+  margin: 0 15px;
+  font-size: 1.1rem;
+}
+
+.navElement:hover {
+  color: #f1f1f1;
+}
+
+/* Profile Section */
+/* .profilePic,
+.aboutMe {
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px black;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.aboutMe h2 {
+  margin-top: 15px;
+}
+
+.aboutMe ul {
+  padding-left: 20px;
+}
+
+.aboutMe li {
+  margin: 10px 0;
+}
+
+.aboutMe li .icon {
+  margin-right: 10px;
+}
+
+/* About Me Section */
+/*.aboutMeBox {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Mobile-first - Default layout for smaller devices */
+/* .profilePic {
+  width: 80%;
+  max-width: 250px;
+  margin-bottom: 20px;
+}
+
+.aboutMe {
+  width: 80%;
+  max-width: 320px;
+}
+
+.navigation {
+  flex-direction: column;
+}
+
+.navElement {
+  margin: 10px 0;
+}
+
+/* Tablet (768px) */
+/* @media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .profilePic,
+  .aboutMe {
+    width: 45%;
+  }
+
+  .navigation {
+    flex-direction: row;
+  }
+
+  .navElement {
+    margin: 0 20px;
+  }
+}
+
+/* Desktop (1024px) */
+/* @media (min-width: 1024px) {
+  .profilePic {
+    width: 300px;
+    height: 300px;
+  }
+
+  .aboutMe {
+    width: 350px;
+  }
+
+  .container {
+    max-width: 1100px;
+  }
+
+  .navigation {
+    justify-content: flex-start;
+    padding: 15px 50px;
+  }
+
+  .navElement {
+    font-size: 1.2rem;
+  }
+}*/
+
+/* Large Desktop (1440px) */
+/* @media (min-width: 1440px) {
+  .profilePic {
+    width: 350px;
+    height: 350px;
+  }
+
+  .aboutMe {
+    width: 400px;
+  }
+
+  .container {
+    max-width: 1300px;
+    padding: 30px;
+  }
+}*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: #2d2d2d;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px;
+  max-width: 100%;
+  margin: 0 20px;
+  height: 40px;
+}
+
+.navElement {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.profilePic {
+  margin-top: 40px;
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px black;
+  width: 100%;
+  max-width: 370px;
+  height: 370px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutMe {
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px black;
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutMeBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileImage {
+  display: block;
+  width: 100%;
+  max-width: 370px;
+  height: 370px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 0.7em;
+  margin-top: 27px;
+  display: flex;
+  align-items: center;
+}
+
+.web {
+  color: #737373cd;
+}
+
+.html {
+  color: #dc8d01;
+}
+
+.css {
+  color: blue;
+}
+
+.js {
+  color: yellow;
+}
+
+.react {
+  color: lightblue;
+}
+
+.firebase {
+  color: gold;
+  margin-left: 30px;
+}
+
+.ts {
+  color: #3345cdcd;
+  margin-bottom: 0;
+}
+
+.icon {
+  margin-right: 30px;
+}
+
+.firebaseIcon {
+  width: 19px;
+  height: 19px;
+  margin-left: -30px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.tsIcon {
+  width: 15px;
+  height: 15px;
+  margin-left: 3px;
+  margin-right: 20px;
+  margin-bottom: 4px;
+}
+
+.mydesc {
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px;
+  margin-top: 10px;
+  height: 200px;
+}
+
+h3 {
+  color: #32cd32;
+  font-family: 'Montserrat', 'Sans-Serif';
+  font-weight: 400;
+}
+
+.myName {
+  font-weight: 700;
+}
+
+.openTo {
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+.githubRepo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.githubRepoLink {
+  margin-top: 40px;
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px black;
+  width: 100%;
+  max-width: 370px;
+  height: 550px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillName {
+  margin-top: 40px;
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px black;
+  width: 100%;
+  max-width: 370px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.githubLinks {
+  font-family: 'Montserrat', 'Sans-Serif';
+  font-weight: 400;
+  margin-right: 10px;
+  color: #32cd32;
+  text-decoration: none;
+}
+
+.notesAppProject {
+  margin-top: 20px;
+  margin-left: 90px;
+  color: white;
+  font-size: 1em;
+}
+
+.firebaseSkill {
+  color: gold;
+  font-size: 1.3em;
+}
+
+.myskillsNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px;
+  margin-top: 10px;
+  height: 300px;
+}
+
+.myskillsDiv {
+  position: relative;
+}
+
+.skills {
+  color: white;
+}
+
+.reactSkill {
+  color: lightblue;
+  font-size: 1.3em;
+  margin-left: 10px;
+}
+
+.reactjsSkillIcon {
+  position: absolute;
+  left: 10px;
+}
+
+p {
+  color: white;
+  font-size: 1.7em;
+  margin-left: 20px;
+}
+
+.skillList {
+  margin-top: 60px;
+}
+
+.myLinksDiv {
+  margin-left: auto;
+  position: relative;
+}
+
+.linkofSkill {
+  font-size: 1.3em;
+  margin-right: 20px;
+}
+
+.links {
+  position: absolute;
+  top: -40px;
+}
+
+.githubLinkIcon {
+  font-size: 1.6em;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mycontactnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px;
+  margin-top: 30px;
+  height: 600px;
+}
+
+.instagramContact {
+  font-size: 1.6em;
+  color: pink;
+}
+
+.instagramLink {
+  color: pink;
+  margin-left: 20px;
+}
+
+.githubContact {
+  font-size: 1.6em;
+  color: orange;
+}
+
+.githubLink {
+  color: orange;
+  margin-left: 20px;
+}
+
+.twitterContact {
+  font-size: 1.6em;
+  color: lightblue;
+}
+
+.twitterLink {
+  color: lightblue;
+  margin-left: 20px;
+}
+
+.LinkedinContact {
+  font-size: 1.6em;
+  color: blue;
+}
+
+.LinkedinLink {
+  color: blue;
+  margin-left: 20px;
+}
+
+.discordContact {
+  font-size: 1.6em;
+  color: #2a1bec;
+}
+
+.discordLink {
+  color: #2a1bec;
+  margin-left: 20px;
+}
+
+.numberLink {
+  margin-left: 40px;
+}
+
+.reachmeout {
+  color: white;
+  font-size: 1.9em;
+}
+
+.emailLink {
+  font-size: 1.7em;
+}
+
+.numberLink {
+  font-size: 1.7em;
+}
+
+.emailLogo {
+  color: white;
+  font-size: 1.7em;
+  margin-right: 20px;
+}
+
+.userIcon {
+  color: white;
+  font-size: 1.7em;
+}
+
+.node {
+  color: green;
+}
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .profilePic, .aboutMe, .githubRepoLink, .skillName {
+    width: 90%;
+    max-width: none;
+  }
+
+  .profileImage {
+    width: 100%;
+    max-width: 370px;
+    height: auto;
+  }
+
+  .myskillsNav {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .mycontactnav {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .skillList {
+    margin-top: 40px;
+  }
+
+  p {
+    font-size: 1.4em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  .githubRepoLink, .skillName {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .myName, .openTo {
+    font-size: 1em;
+  }
+
+  .myLinksDiv {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .githubLinkIcon {
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .profilePic, .aboutMe {
+    width: 100%;
+    height: auto;
+    max-width: none;
+  }
+
+  .navigation {
+    padding: 10px 0;
+  }
+
+  .mycontactnav {
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .githubRepoLink, .skillName {
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .skillList {
+    margin-top: 30px;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+}
+

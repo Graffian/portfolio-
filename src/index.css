@@ -23,6 +23,9 @@ body {
   margin-left: 20px;
 }
 
+.navElement:hover{
+  color:red;
+}
 h1 {
   text-align: center;
   color: white;

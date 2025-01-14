@@ -1,26 +1,21 @@
-import SignIn from './login/signin.js'
-import SignUp from './login/signup.js'
-import {createBrowserRouter,RouterProvider} from 'react-router-dom'
-import Main from './notes/main.js'
-import Note from './notes/note.js'
+import Portfolio from "./portfolio.js"
+import {createBrowserRouter,RouterProvider} from "react-router-dom"
+import Skill from './skills.js'
+import Contact from './contact.js'
 function App(){
   
   const router = createBrowserRouter([
     {
       path:"/",
-      element:<SignIn/>
+      element:<Portfolio/>
     },
     {
-      path:"/signup",
-      element:<SignUp/>
+      path:"/skills",
+      element:<Skill/>
     },
     {
-      path:"/main",
-      element:<Main/>
-    },
-    {
-      path:"/note",
-      element:<Note/>
+      path:"/contact",
+      element:<Contact/>
     }
     ])
   return(

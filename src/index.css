@@ -1,3 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 body{
   background-color:#2d2d2d;
+}
+.navigation{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px;
+  max-width:100%;
+  margin-right:20px;
+  margin-left:10px;
+  height:40px;
+  margin-bottom: 0;
+}
+.navElement{
+  text-decoration: none;
+  margin-left:20px;
+  
+}
+h1{
+  text-align: center;
+  color:white;
+}
+.profilePic{
+  margin-top:40px;
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px black;
+  width:370px;
+  height:370px;
+  
+  
+}
+.aboutMe{
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px black;
+  width:400px;
+  height:400px;
+  
+  margin-top:40px;
+  color:white;
+  text-align:center;
+  font-size:1.5em;
+  
+}
+.aboutMeBox{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.profileImage{
+ display: block;
+ width: 370px;
+ height: 370px;
+  overflow: hidden;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  font-size: 0.7em;
+  margin-top:27px;
+  display:flex;
+  align-items: center;
+  
+}
+.web{
+  color:#737373cd;
+  
+}
+.html{
+  color:#dc8d01;
+  
+}
+.css{
+  color:blue;
+  
+}
+.js{
+  color:yellow;
+  
+}
+.react{
+  color:lightblue;
+  
+}
+.firebase{
+  color:gold;
+  margin-left:30px;
+  
+}
+.ts{
+  color:#3345cdcd;
+  margin-bottom: 0;
+}
+.icon{
+  margin-right:30px;
+  
+}
+.firebaseIcon{
+  
+  width:19px;
+  height:19px;
+  margin-left:-30px;
+  margin-right:20px;
+  margin-top:5px;
+}
+.tsIcon{
+  
+  width:15px;
+  height:15px;
+  margin-left:3px;
+  margin-right:20px;
+  margin-bottom:4px;
+}
+
+.mydesc{
+  
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px;
+  margin-top:10px;
+}
+h3{
+  color:#32CD32;
+  font-family: 'Montserrat','Sans-Serif';
+  font-weight:400;
+  
+}
+
+.mydesc{
+  height:200px;
+}
+.myName{
+  font-weight:700;
+}
+.openTo{
+  font-weight:400;
+  font-size: 0.8em;
+}
+.githubRepo{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.githubRepoLink{
+  margin-top:40px;
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px black;
+  width:370px;
+  height:550px;
+  color:white;
+  
+  
+}
+.skillName{
+  margin-top:40px;
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px black;
+  width:370px;
+  height:550px;
+}
+.githubLinks{
+  font-family: 'Montserrat','Sans-Serif';
+  font-weight:400;
+  margin-right:10px;
+  color:#32CD32;
+  text-decoration: none;
+}
+.notesAppProject{
+  margin-top:20px;
+  margin-left:90px;
+  color:white;
+  font-size: 1em;
+}
+.firebaseSkill{
+  color:gold;
+  font-size: 1.3em;
+  
+}
+.myskillsNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px;
+  margin-top:10px;
+  height:300px;
+  
+}
+.myskillsDiv{
+  position: relative;
+  
+}
+.skills{
+  color:white;
+}
+.reactSkill{
+  color:lightblue;
+  font-size: 1.3em;
+  margin-left:10px;
+}
+.reactjsSkillIcon{
+  position:absolute;
+  left:10px;
+  
+  
+}
+p{
+  color:white;
+  font-size: 1.7em;
+  margin-left:20px;
+}
+.skillList{
+  margin-top:60px;
+  
+}
+.myLinksDiv{
+  margin-left:auto;
+  position:relative;
+  
+}
+.linkofSkill{
+  font-size: 1.3em;
+  margin-right:20px;
+}
+.links{
+  position: absolute;
+  top:-100px;
+}
+.githubLinkIcon{
+  font-size:1.6em;
+  margin-right:20px;
+}
+a{
+  text-decoration: none;
+}
+.mycontactnav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  box-shadow: 5px 5px 20px;
+  margin-top:30px;
+  height:600px;
+  
+}
+
+.instagramContact{
+  font-size:1.6em;
+  color:pink;
+}
+.instagramLink{
+  color:pink;
+  margin-left:20px;
+}
+.githubContact{
+  font-size:1.6em;
+  color:orange;
+}
+.githubLink{
+  color:orange;
+  margin-left:20px;
+}
+.twitterContact{
+  font-size:1.6em;
+  color:lightblue;
+}
+.twitterLink{
+  color:lightblue;
+  margin-left:20px;
+}
+.LinkedinContact{
+  font-size:1.6em;
+  color:blue;
+}
+.LinkedinLink{
+  color:blue;
+  margin-left:20px;
+}
+.discordContact{
+  font-size:1.6em;
+  color:#2a1bec;
+}
+.discordLink{
+  color:#2a1bec;
+  margin-left:20px;
+}
+.numberLink{
+  margin-left:40px;
+}
+.reachmeout{
+  color:white;
+  font-size: 1.9em;
+}
+.emailLink{
+  
+  font-size: 1.7em;
+  
+}
+.numberLink{
+  
+  font-size: 1.7em;
+  
+}
+.emailLogo{
+  color:white;
+  font-size: 1.7em;
+  margin-right:20px;
+}
+.userIcon{
+  color:white;
+  font-size: 1.7em;
+}
+.node{
+  color:green;
 }

@@ -15,7 +15,7 @@ function Portfolio(){
   
   return(
     <div>
-      <h1>AYUSH'S WEBSITE</h1>
+      <h1>AYUSH'S PORTFOLIO WEBSITE</h1>
       <nav className="navigation">
         <Link className="navElement" to="/">HOME</Link>
         <Link className="navElement" to="/skills">SKILLS AND PROJECTS</Link>

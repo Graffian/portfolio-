@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> e51a37ce6c683ef2ed5ef69a7e7fce008520471c
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -27,6 +30,9 @@ body {
   margin-left: 20px;
 }
 
+.navElement:hover{
+  color:red;
+}
 h1 {
   text-align: center;
   color: white;
@@ -454,8 +460,13 @@ a {
   p {
     font-size: 1.3em;
   }
+<<<<<<< HEAD
 }
 .socketioSkill{
   font-size: 1.3rem;
   color:white;
 }
+=======
+  }
+  
+>>>>>>> e51a37ce6c683ef2ed5ef69a7e7fce008520471c

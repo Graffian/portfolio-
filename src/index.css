@@ -205,6 +205,10 @@ h3 {
   color: gold;
   font-size: 1.3em;
 }
+.socketioSkill{
+  font-size: 1.4rem;
+  color:white;
+}
 
 .myskillsNav {
   display: flex;
@@ -456,10 +460,7 @@ a {
     font-size: 1.3em;
  
 }
-.socketioSkill{
-  font-size: 1.8rem;
-  color:white;
-}
+
 }
 
   

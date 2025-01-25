@@ -5,12 +5,14 @@ import notesAppProject from './photos/Screenshot_20250114-004042_GitHub.jpg'
 import rpsProject from './photos/Screenshot_20250114-091752_GitHub.jpg'
 import calcProject from './photos/Screenshot_20250114-092816_GitHub.jpg'
 import fetchApiProject from './photos/Screenshot_20250114-090103_GitHub.jpg'
+import chatAppProject from './photos/Screenshot_20250124-153454_GitHub.jpg'
 import firebaseLogo from './photos/7a0673531eb5c727a6a774ad188cbfba.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faJs } from '@fortawesome/free-brands-svg-icons'
+import { faPlug } from '@fortawesome/free-solid-svg-icons'
 function Skill(){
   const [githubInfo,getGithubInfo]=useState([])
   useEffect(()=>{
@@ -24,7 +26,7 @@ function Skill(){
     };githubApi()
   },[])
   return(<div>
-       <h1>AYUSH'S WEBSITE</h1>
+       <h1>AYUSH'S PORTFOLIO WEBSITE</h1>
       <nav className="navigation">
         <Link className="navElement" to="/">HOME</Link>
         <Link className="navElement" to="/skills">SKILLS AND PROJECTS</Link>
@@ -48,7 +50,7 @@ function Skill(){
       <div className="myLinksDiv"> 
       <p className="links">LINKS: </p>
       <ul className="myLinkList">
-        <li className="linkofSkill"><FontAwesomeIcon href="http://github.com/Graffian/Notes-app-" className="githubLinkIcon" icon={faGithub} /><a href="http://github.com/Graffian/Notes-app-"><b>GITHUB</b></a></li>
+        <li className="linkofSkill"><FontAwesomeIcon href="http://github.com/Graffian/" className="githubLinkIcon" icon={faGithub} /><a href="http://github.com/Graffian/Notes-app-"><b>GITHUB</b></a></li>
         <li className="linkofSkill"><a href="https://notes-app-three-blue.vercel.app/"><b>DEPLOYMENT</b></a></li>
         </ul>
         </div>
@@ -72,7 +74,7 @@ function Skill(){
       <div className="myLinksDiv"> 
       <p className="links">LINKS: </p>
       <ul className="myLinkList">
-        <li className="linkofSkill"><FontAwesomeIcon href="http://github.com/Graffian/Notes-app-" className="githubLinkIcon" icon={faGithub} /><a href="http://github.com/Graffian/WEATHER-APP-REACT"><b>GITHUB</b></a></li>
+        <li className="linkofSkill"><FontAwesomeIcon href="http://github.com/Graffian/" className="githubLinkIcon" icon={faGithub} /><a href="http://github.com/Graffian/WEATHER-APP-REACT"><b>GITHUB</b></a></li>
         <li className="linkofSkill"><a href="#"><b>NO DEPLOYMENT</b></a></li>
         </ul>
         </div>
@@ -94,7 +96,7 @@ function Skill(){
       <div className="myLinksDiv"> 
       <p className="links">LINKS: </p>
       <ul className="myLinkList">
-        <li className="linkofSkill"><FontAwesomeIcon href="http://github.com/Graffian/Notes-app-" className="githubLinkIcon" icon={faGithub} /><a href="http://github.com/Graffian/ROCK-PAPER-SCISSORS"><b>GITHUB</b></a></li>
+        <li className="linkofSkill"><FontAwesomeIcon href="http://github.com/Graffian/" className="githubLinkIcon" icon={faGithub} /><a href="http://github.com/Graffian/ROCK-PAPER-SCISSORS"><b>GITHUB</b></a></li>
         <li className="linkofSkill"><a href="#"><b>NO DEPLOYMENT</b></a></li>
         </ul>
         </div>
@@ -116,11 +118,34 @@ function Skill(){
       <div className="myLinksDiv"> 
       <p className="links">LINKS: </p>
       <ul className="myLinkList">
-        <li className="linkofSkill"><FontAwesomeIcon href="http://github.com/Graffian/Notes-app-" className="githubLinkIcon" icon={faGithub} /><a href="http://github.com/Graffian/Basic-calculator-"><b>GITHUB</b></a></li>
+        <li className="linkofSkill"><FontAwesomeIcon href="http://github.com/Graffian/" className="githubLinkIcon" icon={faGithub} /><a href="http://github.com/Graffian/Basic-calculator-"><b>GITHUB</b></a></li>
         <li className="linkofSkill"><a href="#"><b>NO DEPLOYMENT</b></a></li>
         </ul>
         </div>
       </nav>
+      
+      
+      <img className="notesAppProject" src={chatAppProject}/>
+       <nav className="myskillsNav">
+     <div className="myskillsDiv"> 
+      <p className="skills">SKILLS USED: </p>
+      <ul className="skillList">
+        <li className="socketioSkill"><FontAwesomeIcon className="reactjsSkillIcon" icon={faPlug} /><b>SOCKET.IO INTEGRATION</b></li>
+       
+        <li className="reactSkill"><FontAwesomeIcon className="reactjsSkillIcon" icon={faReact} /><b>REACTJS</b></li>
+      </ul>
+      </div>
+      <div className="myLinksDiv"> 
+      <p className="links">LINKS: </p>
+      <ul className="myLinkList">
+        <li className="linkofSkill"><FontAwesomeIcon href="http://github.com/Graffian/" className="githubLinkIcon" icon={faGithub} /><a href="http://github.com/Graffian/chat-app"><b>GITHUB</b></a></li>
+        <li className="linkofSkill"><a href="#"><b>NO DEPLOYMENT</b></a></li>
+        </ul>
+        </div>
+      </nav>
+      
+      
+      
     </div>
     
       

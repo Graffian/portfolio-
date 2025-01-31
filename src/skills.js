@@ -51,7 +51,7 @@ function Skill(){
       <p className="links">LINKS: </p>
       <ul className="myLinkList">
         <li className="linkofSkill"><FontAwesomeIcon href="http://github.com/Graffian/polling-website" className="githubLinkIcon" icon={faGithub} /><a href="http://github.com/Graffian/Notes-app-"><b>GITHUB</b></a></li>
-        <li className="linkofSkill"><a href="#"><b>DEPLOYMENT</b></a></li>
+        <li className="linkofSkill"><a href="#"><b>NO DEPLOYMENT</b></a></li>
         </ul>
         </div>
       </nav>

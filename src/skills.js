@@ -7,7 +7,7 @@ import calcProject from './photos/Screenshot_20250114-092816_GitHub.jpg'
 import fetchApiProject from './photos/Screenshot_20250114-090103_GitHub.jpg'
 import chatAppProject from './photos/Screenshot_20250124-153454_GitHub.jpg'
 import firebaseLogo from './photos/7a0673531eb5c727a6a774ad188cbfba.png'
-
+import pollingWebsiteProject from './photos/Screenshot_20250131-114340_GitHub.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -36,11 +36,31 @@ function Skill(){
      
      
      
-      <img className="notesAppProject" src={notesAppProject}/>
+      <img className="notesAppProject" src={pollingWebsiteProject}/>
        <nav className="myskillsNav">
      <div className="myskillsDiv"> 
       <p className="skills">SKILLS USED: </p>
       <ul className="skillList">
+        <li className="firebaseSkill"><img className="firebaseIcon" src={firebaseLogo}/><b>FIREBASE DATABASE</b></li>
+        <li className="firebaseSkill"><img className="firebaseIcon" src={firebaseLogo}/><b>CRUD DATABASE HANDLING</b></li>
+        <li className="reactSkill"><FontAwesomeIcon className="reactjsSkillIcon" icon={faReact} /><b>REACTJS</b></li>
+        <li className="socketioSkill"><FontAwesomeIcon className="reactjsSkillIcon" icon={faPlug} /><b>SOCKET.IO INTEGRATION</b></li>
+      </ul>
+      </div>
+      <div className="myLinksDiv"> 
+      <p className="links">LINKS: </p>
+      <ul className="myLinkList">
+        <li className="linkofSkill"><FontAwesomeIcon href="http://github.com/Graffian/polling-website" className="githubLinkIcon" icon={faGithub} /><a href="http://github.com/Graffian/Notes-app-"><b>GITHUB</b></a></li>
+        <li className="linkofSkill"><a href="https://notes-app-three-blue.vercel.app/"><b>DEPLOYMENT</b></a></li>
+        </ul>
+        </div>
+      </nav>
+      
+      
+        <img className="notesAppProject" src={notesAppProject}/>
+       <nav className="myskillsNav">
+     <div className="myskillsDiv"> 
+      <p className="skills">SKILLS USED: </p><ul className="skillList">
         <li className="firebaseSkill"><img className="firebaseIcon" src={firebaseLogo}/><b>FIREBASE AUTHENTICATION</b></li>
         <li className="firebaseSkill"><img className="firebaseIcon" src={firebaseLogo}/><b>FIREBASE DATABASE</b></li>
         <li className="firebaseSkill"><img className="firebaseIcon" src={firebaseLogo}/><b>CRUD DATABASE HANDLING</b></li>
@@ -50,14 +70,11 @@ function Skill(){
       <div className="myLinksDiv"> 
       <p className="links">LINKS: </p>
       <ul className="myLinkList">
-        <li className="linkofSkill"><FontAwesomeIcon href="http://github.com/Graffian/" className="githubLinkIcon" icon={faGithub} /><a href="http://github.com/Graffian/Notes-app-"><b>GITHUB</b></a></li>
-        <li className="linkofSkill"><a href="https://notes-app-three-blue.vercel.app/"><b>DEPLOYMENT</b></a></li>
+        <li className="linkofSkill"><FontAwesomeIcon href="http://github.com/Graffian/" className="githubLinkIcon" icon={faGithub} /><a href="http://github.com/Graffian/WEATHER-APP-REACT"><b>GITHUB</b></a></li>
+        <li className="linkofSkill"><a href="https://notes-app-three-blue.vercel.app/"><b> DEPLOYMENT</b></a></li>
         </ul>
         </div>
       </nav>
-      
-      
-      
       
       
       
